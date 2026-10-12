@@ -1,52 +1,76 @@
+
 .part1 {
-    display: flex;
-    gap: 15px;
-    padding: 20px;
-    align-items: center;
-    float: right;
+    padding: 20px; /* فاصله داخلی از چهار طرف */
+    align-items: center; /* تراز کردن عناصر از نظر عمودی؛ در حالت flex کاربرد دارد */
+    float: right; /* بردن این بخش به سمت راست */
 }
 
 .part1 a {
-    text-decoration: none;
-    padding-right: 20px;
-   font-size: 18px;
+    text-decoration: none; /* حذف خط زیر لینک‌ها */
+    padding-right: 20px; /* فاصله داخلی از سمت راست لینک */
+    font-size: 18px; /* اندازه نوشته لینک‌ها */
 }
 
 .part1 button {
-    border-radius: 20px;
-    padding: 10px 20px;
-    border: none;
-    background-color: blue;
-    color: aliceblue;
-    font-size: 16px;
+    border-radius: 20px; /* گرد کردن گوشه‌های دکمه */
+    padding: 10px 20px; /* فاصله داخلی: 10 پیکسل بالا و پایین، 20 پیکسل چپ و راست */
+    border: none; /* حذف حاشیه دکمه */
+    background-color: blue; /* رنگ پس‌زمینه دکمه آبی */
+    color: aliceblue; /* رنگ نوشته دکمه */
+    font-size: 16px; /* اندازه نوشته دکمه */
 }
+
 .logo {
-    text-align: center;
-    padding-top: 100px;
+    text-align: center; /* وسط‌چین کردن محتوای داخل این بخش */
+    padding-top: 100px; /* ایجاد فاصله داخلی از بالا */
 }
 
 .logo img {
-    width: 280px;
+    width: 280px; /* تعیین عرض تصویر لوگو */
 }
+
 .part2 {
-    text-align: center;
-    padding-top: 2px;
+    text-align: center; /* وسط‌چین کردن محتوای این بخش */
+    padding-top: 2px; /* فاصله داخلی از بالا */
 }
 
 .part2 input {
-    width: 500px;
-    height: 35px;
-    border-radius: 25px;
-    border-style: solid;
+    width: 500px; /* عرض کادر جست‌وجو */
+    height: 35px; /* ارتفاع کادر جست‌وجو */
+    border-radius: 25px; /* گرد کردن گوشه‌های کادر */
+    border-style: solid; /* مشخص کردن حاشیه پیوسته */
 }
-.main{
-    text-align: center;
-    padding-top: 10px;
+
+.main {
+    text-align: center; /* وسط‌چین کردن محتوای این بخش */
+    padding-top: 10px; /* فاصله داخلی از بالا */
 }
 
 .main a {
-    color: rgb(0, 0, 0);
-    padding: 10px 15px;
-    font-size: 14px;
-    text-decoration: none;
+    color: rgb(0, 0, 0); /* رنگ نوشته لینک‌ها؛ مشکی */
+    padding: 10px 15px; /* فاصله داخلی: 10 پیکسل بالا و پایین، 15 پیکسل چپ و راست */
+    font-size: 14px; /* اندازه نوشته لینک‌ها */
+    text-decoration: none; /* حذف خط زیر لینک‌ها */
+}
+
+.footer {
+    position: fixed; /* ثابت نگه داشتن فوتر نسبت به صفحه */
+    bottom: 0; /* چسباندن فوتر به پایین صفحه */
+    width: 100%; /* عرض فوتر برابر با عرض صفحه */
+    padding: 10px 0; /* فاصله داخلی بالا و پایین 10 پیکسل */
+}
+
+.left {
+    float: left; /* قرار دادن این بخش در سمت چپ */
+}
+
+.right {
+    float: right; /* قرار دادن این بخش در سمت راست */
+}
+
+.footer a {
+    text-decoration: none; /* حذف خط زیر لینک‌های فوتر */
+    color: black; /* رنگ نوشته‌ها مشکی */
+    font-size: 13px; /* اندازه نوشته‌ها */
+    padding: 10px; /* فاصله داخلی اطراف لینک‌ها */
 }
