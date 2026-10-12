@@ -39,3 +39,14 @@
     border-radius: 25px;
     border-style: solid;
 }
+.main{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.main a {
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    font-size: 14px;
+    text-decoration: none;
+}
