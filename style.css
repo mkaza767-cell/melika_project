@@ -20,3 +20,22 @@
     color: aliceblue;
     font-size: 16px;
 }
+.logo {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.logo img {
+    width: 280px;
+}
+.part2 {
+    text-align: center;
+    padding-top: 2px;
+}
+
+.part2 input {
+    width: 500px;
+    height: 35px;
+    border-radius: 25px;
+    border-style: solid;
+}
